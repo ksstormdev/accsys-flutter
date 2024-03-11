@@ -2,7 +2,7 @@
 ├── coverage
 ├── docs
 │   ├── 01-nx.md
-│   └── 01-repo-tree
+│   └── 01-repo-tree.txt
 ├── LICENSE
 ├── packages
 │   ├── nx.json
