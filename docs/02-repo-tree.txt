@@ -1,0 +1,38 @@
+.
+├── backend
+│   ├── jest.config.ts
+│   ├── project.json
+│   ├── src
+│   │   ├── app
+│   │   │   ├── app.controller.spec.ts
+│   │   │   ├── app.controller.ts
+│   │   │   ├── app.module.ts
+│   │   │   ├── app.service.spec.ts
+│   │   │   └── app.service.ts
+│   │   ├── assets
+│   │   └── main.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.spec.json
+│   └── webpack.config.js
+├── backend-e2e
+│   ├── jest.config.ts
+│   ├── project.json
+│   ├── src
+│   │   ├── backend
+│   │   │   └── backend.spec.ts
+│   │   └── support
+│   │       ├── global-setup.ts
+│   │       ├── global-teardown.ts
+│   │       └── test-setup.ts
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── jest.config.ts
+├── jest.preset.js
+├── nx.json
+├── package.json
+├── package-lock.json
+├── tsconfig.base.json
+└── tsconfig.json
+
+8 directories, 27 files
