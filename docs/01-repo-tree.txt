@@ -1,0 +1,14 @@
+.
+├── coverage
+├── docs
+│   ├── 01-nx.md
+│   └── 01-repo-tree.txt
+├── LICENSE
+├── packages
+│   ├── nx.json
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+└── README.md
+
+3 directories, 8 files
