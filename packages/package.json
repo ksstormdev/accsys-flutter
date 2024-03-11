@@ -1,0 +1,17 @@
+{
+  "name": "packages",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nx/js": "18.0.8",
+    "nx": "18.0.8"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
