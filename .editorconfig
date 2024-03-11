@@ -1,41 +1,44 @@
 # Top-most EditorConfig file
 root = true
 
-# Set default charset to UTF-8
-[*]
-charset = utf-8
-
-# Indentation settings
-[*.md]
-indent_style = space
-indent_size = 2
-
-[*.{js,jsx,ts,tsx,php,css,scss,less}]
-indent_style = space
-indent_size = 2
-
-[*.html]
-indent_style = space
-indent_size = 4
-
-# End of line settings
+# Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
-
-# Trim trailing whitespace
-[*]
-trim_trailing_whitespace = true
-
-# Ensure a newline at the end of the file
-[*]
 insert_final_newline = true
+charset = utf-8
+indent_style = space
+indent_size = 2
 
-# Set maximum line length
-[*.{md,txt}]
-max_line_length = 80
+# Matches multiple files with brace expansion notation
+[*.{js,jsx,ts,tsx,json,css,scss,md}]
+indent_size = 2
 
-# Ignore certain files
-[dist/**]
-exclude_patterns = .gitignore
+[*.dart]
+indent_size = 2
 
-# Add more specific rules for your project as needed
+# YAML files
+[*.yml]
+indent_size = 2
+
+# HTML files
+[*.html]
+indent_size = 2
+
+# Markdown files (md)
+[*.md]
+trim_trailing_whitespace = false
+
+# Shell scripts
+[*.sh]
+indent_style = space
+indent_size = 2
+
+# Docker files
+[Dockerfile]
+indent_style = space
+indent_size = 2
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
